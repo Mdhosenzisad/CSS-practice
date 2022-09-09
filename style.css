@@ -112,11 +112,14 @@ a:hover {
     width: 100%;
 }
 
-.para {
-    background-color: rgb(176, 195, 211);
+.box-3 {
+    background-color: rgb(184, 117, 215);
     padding: 20px;
+    margin: 20px;
 }
 
-.para p {
+.box-3 p {
     padding: 20px;
+    text-align: justify;
+    line-height: 1.6em;
 }
