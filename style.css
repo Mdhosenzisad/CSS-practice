@@ -111,3 +111,12 @@ a:hover {
     padding: 8px;
     width: 100%;
 }
+
+.para {
+    background-color: rgb(176, 195, 211);
+    padding: 20px;
+}
+
+.para p {
+    padding: 20px;
+}
