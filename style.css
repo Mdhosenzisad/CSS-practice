@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(140, 235, 201);
+    color: rgb(28, 24, 24);
+    font-size: 16px, Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+.button {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: blue;
+    color: blueviolet;
+}
+
+.box-1 {
+    background-color: rgb(109, 149, 172);
+    color: azure;
+    border: 5px rgb(5, 19, 17) solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.box-1 p {
+    text-align: justify;
+}
+
+.box-2 {
+    background-color: burlywood;
+    border: 1px dotted #333;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box-2 h1 {
+    text-align: center;
+}
+
+.box-2 p {
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+.categories {
+    border: 1px solid #333;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.categories h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.categories ul {
+    padding: 20px;
+}
+
+.categories ul li {
+    border-bottom: 1px dotted #333;
+    list-style-image: url("Images/download.png");
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .my-group {
+    padding-bottom: 15px;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
