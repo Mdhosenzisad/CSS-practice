@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex possition</title>
+    <style>
+        @media(min-width:768px) {
+            .container-2 {
+                margin-top: 10px;
+                display: flex;
+                /* justify-content: flex-start; */
+                /* justify-content: flex-end; */
+                /* justify-content: center; */
+                /* justify-content: space-around; */
+                justify-content: space-evenly;
+            }
+            .container-1 {
+                background-color: aqua;
+                display: flex;
+                /* align-items: flex-start; */
+                /* align-items: flex-end; */
+                /* align-items: center; */
+                /* flex-direction: column; */
+                /* flex-direction: row-reverse; */
+            }
+        }
+        
+        .container-3 {
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .textwrap {
+            background-color: rgb(108, 197, 214);
+            padding: 20px;
+            border: 1px solid black;
+            flex-basis: 5%;
+        }
+        
+        .box {
+            border: 1px solid yellowgreen;
+            padding: 20px;
+            /* width: 20%; */
+            flex-basis: 20%;
+        }
+        
+        .container-1 div {
+            border: 1px solid black;
+            padding: 20px;
+        }
+        
+        .box-1 {
+            flex: 1;
+            order: 2;
+        }
+        
+        .box-2 {
+            order: 1;
+            flex: 2;
+        }
+        
+        .box-3 {
+            order: 3;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <h2>One</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat amet, adipisci vero tempore modi aliquam laborum nihil fugiat consectetur velit. Velit, nihil voluptatum molestias harum consectetur iusto voluptates eum unde!</p>
+        </div>
+        <!--box1-->
+        <div class="box-2">
+            <h2>Two</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat amet, adipisci vero tempore modi aliquam laborum nihil fugiat consectetur velit. Velit, nihil voluptatum molestias harum consectetur iusto voluptates eum unde!</p>
+        </div>
+        <!--box1-->
+        <div class="box-3">
+            <h2>Three</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat amet, adipisci vero tempore modi aliquam laborum nihil fugiat consectetur velit. Velit, nihil voluptatum molestias harum consectetur iusto voluptates eum unde!</p>
+        </div>
+        <!--box1-->
+    </div>
+
+    <div class="container-2">
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam suscipit harum rem nobis officia placeat maiores aspernatur libero magnam!
+
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam suscipit harum rem nobis officia placeat maiores aspernatur libero magnam!
+
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ullam suscipit harum rem nobis officia placeat maiores aspernatur libero magnam!
+
+        </div>
+    </div>
+
+    <div class="container-3">
+        <div class="textwrap">
+            <h1>1</h1>
+        </div>
+        <div class="textwrap">
+            <h1>2</h1>
+        </div>
+        <div class="textwrap">
+            <h1>3</h1>
+        </div>
+        <div class="textwrap">
+            <h1>4</h1>
+        </div>
+        <div class="textwrap">
+            <h1>5</h1>
+        </div>
+
+        <div class="textwrap">
+            <h1>6</h1>
+        </div>
+        <div class="textwrap">
+            <h1>7</h1>
+        </div>
+        <div class="textwrap">
+            <h1>8</h1>
+        </div>
+        <div class="textwrap">
+            <h1>9</h1>
+        </div>
+    </div>
+</body>
+
+</html>
