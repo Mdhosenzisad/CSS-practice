@@ -20,6 +20,10 @@ a:hover {
     color: red;
 }
 
+.clear {
+    clear: both;
+}
+
 .button {
     background-color: black;
     color: aliceblue;
@@ -122,4 +126,89 @@ a:hover {
     padding: 20px;
     text-align: justify;
     line-height: 1.6em;
+}
+
+.block {
+    width: 33.3%;
+    float: left;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.block-1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 33.3%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.block-2 {
+    margin-top: 10px;
+    width: 33%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.block-3 {
+    margin-top: 10px;
+    width: 30.3%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-block {
+    float: left;
+    margin-top: 20px;
+    width: 70%;
+    /* border: solid 1px black; */
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.sidebar {
+    margin-top: 20px;
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: rgb(23, 37, 37);
+    color: aliceblue;
+}
+
+.p-box {
+    border: 1px solid black;
+    height: 400px;
+    margin: 20px;
+    position: relative;
+    background-image: url("Images/img1.jpg");
+    color: aliceblue;
+    background-repeat: repeat;
+    background-position: center left;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.p-box h2 {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+}
+
+.fixed {
+    position: fixed;
+    top: 400px;
+    left: 0px;
 }
